@@ -1,0 +1,109 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-image: url('./lB2pyQ.jpg');
+}
+
+.app-container {
+    background-color: rgba(209, 209, 209, .6);
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px 5px rgba(53, 53, 53, .8);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 75px;
+    margin-top: 50px;
+    align-self: stretch;
+    align-content: center;
+    padding: 100px;
+}
+
+.form-container {
+    width: 100%;
+    background-color: rgb(51, 71, 83);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 5px rgba(82, 82, 82, .8);
+    height: 350px;
+    width: 600px;
+}
+
+h1 {
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: #383838;
+    text-shadow: 1px 1px 1px #000000;
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    width: auto;
+    margin: auto;
+}
+
+.form div {
+    padding: 10px;
+    width: 100%;
+}
+
+.inputfield {
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: rgb(223, 223, 223);
+    color: rgb(0, 0, 0);
+    width: 93%;
+    height: 15px;
+    border: 1px solid rgb(18, 48, 56);
+    border-radius: 0px;
+    padding: 10px;
+    margin: auto;
+}
+
+.label {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(160, 160, 160)
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px 5px rgba(82, 82, 82, .8);
+    width: 900px;
+}
+tr {
+    background-color: rgb(55, 74, 87);
+    line-height: 15px;
+}
+td, th {
+    border: 1px solid #383838;
+    color: rgb(189, 176, 197);
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 8px;
+}
+
+th {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(78, 99, 112);
+}
+
+.library-view {
+    padding: 10px;
+}

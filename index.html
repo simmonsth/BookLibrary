@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap" rel="stylesheet"> 
+    <title>Library</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="form-container">
+        
+            <div class="form">
+                <h1>myLibrary</h1>
+                
+                    <div>
+                        <input placeholder="Title" type="text" id="title" class="inputfield">
+                    </div>
+                    <div>
+                        <input placeholder="Author" type="text" id="author" class="inputfield">
+                    </div>
+                    <div>
+                        <input placeholder="Page Length" type="text" id ="pages" class="inputfield">
+                    </div>
+                    <div>
+                        <input type="checkbox" id="read">
+                        <label for="read" style="font-size: 16px; color: rgb(207, 207, 207)">I have read the book</label>
+                    </div>
+                    <div>
+                        <button id="addBook-btn">Add Book</button>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="library-container">
+            <div class="library-vew">
+                <table id="bookTable">
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Page Length</th>
+                        <th>Finished Reading?</th>
+                        <th></th>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+</html>
